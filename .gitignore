@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+*.pkl
+
+# Node/Frontend
+node_modules/
+dist/
+build/
+.next/
+out/
+.vercel
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Zips (already stored on GitHub, but we are removing them)
+*.zip

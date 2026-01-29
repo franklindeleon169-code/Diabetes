@@ -1,24 +1,24 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-venv/
-.env
-*.pkl
-
-# Node/Frontend
-node_modules/
-dist/
-build/
-.next/
-out/
-.vercel
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# OS
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-desktop.ini
-
-# Zips (already stored on GitHub, but we are removing them)
-*.zip
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

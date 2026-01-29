@@ -58,7 +58,7 @@ python main.py
 El servidor estará disponible en http://localhost:8000.
 
 Frontend (React)
-Navega al directorio frontend/.
+Navega al directorio raíz (ahora el frontend está en la raíz).
 
 Instala las dependencias:
 
@@ -80,7 +80,7 @@ POST /predict: Recibe un JSON con las 10 variables clínicas y devuelve la predi
 📁 Estructura del Proyecto
 /backend: Contiene el código de la API, el script de entrenamiento y los modelos serializados (.pkl).
 
-/frontend: Contiene la aplicación React, componentes de UI y lógica de consumo de API.
+/frontend (archivos en la raíz): Contiene la aplicación React, componentes de UI y lógica de consumo de API.
 
 /docs: Manuales de construcción paso a paso y diagramas de arquitectura.
 

@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd frontend-20260115T161535Z-1-001/frontend && npm install && npm run build",
-  "outputDirectory": "frontend-20260115T161535Z-1-001/frontend/dist",
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
   "framework": "vite"
 }
